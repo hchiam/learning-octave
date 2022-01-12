@@ -1,6 +1,6 @@
-# Learning [Octave](https://octave-online.net/)
+# Learning Octave
 
-The [Octave programming language](https://en.wikipedia.org/wiki/GNU_Octave#Octave,_the_language).
+The [Octave programming language](https://en.wikipedia.org/wiki/GNU_Octave#Octave,_the_language). It's mostly like MATLAB, but free and open source (GNU).
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
