@@ -9,3 +9,5 @@ Mac installation via Homebrew: `brew update; brew install octave`
 Run in CLI: `octave`
 
 Clean up CLI prompt (for the session only): `PS1('> ');`
+
+Learn more: https://octave.org/doc
