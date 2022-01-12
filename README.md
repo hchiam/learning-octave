@@ -8,4 +8,4 @@ Mac installation via Homebrew: `brew update; brew install octave`
 
 Run in CLI: `octave`
 
-Clean up CLI prompt: `PS1('> ');`
+Clean up CLI prompt (for the session only): `PS1('> ');`
