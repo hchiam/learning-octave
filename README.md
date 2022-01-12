@@ -12,4 +12,6 @@ Run in CLI: `octave`
 
 Clean up CLI prompt (for the session only): `PS1('> ');`
 
+The CLI also has autocomplete (type the few letters and hit tab).
+
 Learn more: https://octave.org/doc
