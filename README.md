@@ -20,6 +20,8 @@ Learn more: https://octave.org/doc
 
 ## Example commands
 
+Note: Octave starts indices at 1 (not 0).
+
 ```octave
 % comment
 PS1('> '); % to clean up the CLI prompts
@@ -37,6 +39,11 @@ format short % switch to show few decimals
 a = [1 2; 3 4; 5 6] % 3 rows, 2 columns
 v = 1:5             % [ 1       2       3       4       5      ]
 v = 1:0.25:2        % [ 1.0000  1.2500  1.5000  1.7500  2.0000 ]
+
+size(a) % [3 2]
+size(a, 1) % 3 = rows
+size(a, 2) % 2 = columns
+length(a) % longest dimension
 
 x = y = 1 % one-liner multiple assignment is allowed
 
@@ -63,4 +70,16 @@ hist(bell_curve, bins) % updates the popup!
 I = identity_matrix = eye(columns)
 
 help eye % shows help on the eye function
+
+current_folder = pwd
+
+ls % you can cd and ls just like in a normal bash CLI
+
+save filename.mat a % saves a to a file named filename.mat
+delete filename.mat
+save filename.mat a
+% now if if quit and run octave again:
+a % undefined
+load filename.mat % now you have matrix a reloaded
+a % has a value!
 ```
