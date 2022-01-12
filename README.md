@@ -4,6 +4,8 @@ The [Octave programming language](https://en.wikipedia.org/wiki/GNU_Octave#Octav
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
+Try it online without installing: https://octave-online.net
+
 Mac installation via Homebrew: `brew update; brew install octave`
 
 Run in CLI: `octave`
