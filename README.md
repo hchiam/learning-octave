@@ -18,6 +18,8 @@ Exit the CLI with `quit` or `exit`.
 
 Learn more: https://octave.org/doc
 
+## Example commands
+
 ```octave
 % comment
 PS1('> '); % to clean up the CLI prompts
