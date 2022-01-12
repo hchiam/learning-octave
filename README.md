@@ -1,8 +1,8 @@
 # Learning Octave
 
-The [Octave programming language](https://en.wikipedia.org/wiki/GNU_Octave#Octave,_the_language). It's mostly like MATLAB, but free and open source (GNU).
-
 Just one of the things I'm learning. https://github.com/hchiam/learning
+
+The [Octave programming language](https://en.wikipedia.org/wiki/GNU_Octave#Octave,_the_language) is mostly like MATLAB, but free and open source (GNU).
 
 Try it online without installing: https://octave-online.net
 
