@@ -86,8 +86,16 @@ a % has a value!
 
 ## Shortcut alias for faster CLI typing
 
-In your `.bash_profile`:
+In your `~/.bash_profile`:
 
 ```sh
 alias oc='octave'
+```
+
+(Don't forget to run `source ~/.bash_profile`.)
+
+Then you can do:
+
+```sh
+oc example_script.m
 ```
