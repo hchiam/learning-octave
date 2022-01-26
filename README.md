@@ -82,6 +82,11 @@ save filename.mat a
 a % undefined
 load filename.mat % now you have matrix a reloaded
 a % has a value!
+
+function returnVariableName = functionName() % functionName is what you'll use to call it
+  returnVariableName = 1; % this tells octave what to return
+  return; % return keyword can't return a value in octave
+endfunction
 ```
 
 ## Shortcut alias for faster CLI typing
