@@ -83,3 +83,11 @@ a % undefined
 load filename.mat % now you have matrix a reloaded
 a % has a value!
 ```
+
+## Shortcut alias for faster CLI typing
+
+In your `.bash_profile`:
+
+```sh
+alias oc='octave'
+```
