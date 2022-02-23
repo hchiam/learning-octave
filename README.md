@@ -88,6 +88,12 @@ function returnVariableName = functionName() % functionName is what you'll use t
   returnVariableName = 1; % this tells octave what to return
   return; % return keyword can't return a value in octave
 endfunction
+
+% map but for octave:
+function check = check(element)
+  check = sigmoid(element) >= 0.5;
+endfunction
+p = arrayfun(@check, theta' .* X);
 ```
 
 ## Shortcut alias for faster CLI typing
