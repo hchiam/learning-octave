@@ -25,6 +25,7 @@ Note: Octave starts indices at 1 (not 0).
 ```octave
 % comment
 PS1('> '); % to clean up the CLI prompts
+disp('Hello world!')
 1 == 2 % false, but prints out ans = 0
 1 ~= 2 % true,  but prints out ans = 1
 true && false % "AND", prints out ans = 0
